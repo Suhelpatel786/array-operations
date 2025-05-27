@@ -46,8 +46,8 @@ console.log("Total Stock Value = " + totalStockValue);
 // Find the Most Expensive Product
 let mostExpensiveProduct = products[0];
 
-for (let index = 0; index < mostExpensiveProduct.length; index++) {
-  if (products[index].price > mostExpensiveProduct.price) {
+for (let index = 0; index < products.length; index++) {
+  if (products[index].price > products.price) {
     mostExpensiveProduct = products[index];
   }
 }
